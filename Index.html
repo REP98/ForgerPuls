@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ForgePulse | LineUp 01</title>
+    <link rel="icon" type="image/png" href="favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+        html, body{
+            font-family: "Inter Tight", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+        }
+        
+        body { 
+            background-color: #121212; 
+            color: #FAFAFA; 
+            padding: 0;
+            margin: 0; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            min-height: 100vh; 
+            overflow: hidden; 
+            flex-direction: column;
+        }
+        #canvas-container { 
+            padding-left: 0.2rem;
+            padding-right: 0.2rem;
+            width: 100%; 
+            height: 95vh;
+            max-width: calc(100vw - 0.4rem); 
+            max-height: 95vh; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        header h1{
+            font-size: 1.4rem;
+            text-align: center;
+            margin-top: 1rem;
+            margin-bottom: 0.4rem;
+            color: #ff4500;
+            font-weight: 800;
+        }
+        header p{
+            font-size: 0.85rem;
+            margin: 0;
+            margin-bottom: 0.2rem;
+            color: #00ffcc;
+            text-align: center;
+            font-weight: 600;
+            font-style: italic;
+        }
+        footer{
+            color: #8c8c8c;
+            font-size: 0.6rem;
+            text-align: center;
+            margin: 0;
+            width: 100%;
+        }
+        .page { 
+            padding-left: 0.2rem;
+            padding-right: 0.2rem;
+            width: 100%; 
+            height: 100%; 
+            background-size: contain; 
+            background-repeat: no-repeat; 
+            background-position: center; 
+            background-color: #121212; 
+            margin: auto;
+        }
+        .page img { 
+            width: 100%; 
+            height: 100%; 
+            object-fit: contain; /* Mantiene la proporción de tus diseños */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ForgerPuls | LineUp 01 </h1>
+        <p>Tú Esencia Blindada</p>
+    </header>    
+    <main id="canvas-container"></main>
+    <footer>
+        <small>&copy; 2026 - Robert Pérez</small>
+    </footer>
+    <!-- Librería PageFlip desde CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/page-flip/dist/js/page-flip.browser.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
