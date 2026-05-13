@@ -1,6 +1,6 @@
 {
   "name": "ForgerPuls",
-  "short_name": "Fp",
+  "short_name": "FpLp",
   "icons": [
     {
       "src": "/ForgerPuls/images/pwa-192x192.png",
@@ -27,9 +27,11 @@
       "purpose": "maskable"
     }
   ],
-  "start_url": "/ForgerPuls/",
+  "start_url": "/ForgerPuls",
   "display": "fullscreen",
   "background_color": "#121212",
-  "theme_color": "#121212",
-  "description": "Catálogo: LineUp 01, Edición Forjada"
+  "theme_color": "#FF4500",
+  "description": "Catálogo: LineUp 01, Edición Forjada",
+"dir": "auto",
+  "lang": "es"
 }
