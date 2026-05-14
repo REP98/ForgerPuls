@@ -20,6 +20,12 @@
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-5DTLK6B9');</script>
     <!-- End Google Tag Manager -->
+<script>
+  if (typeof navigator.serviceWorker !== 'undefined') {
+    navigator.serviceWorker.register('sw.js')
+  }
+</script>
+
     <style>
         html, body{
             font-family: "Inter Tight", sans-serif;
